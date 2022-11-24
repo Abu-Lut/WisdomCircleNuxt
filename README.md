@@ -1,8 +1,8 @@
-# Nuxt 3 Minimal Starter
+# WisdomCircle Sign-in Flow
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## About
 
 Make sure to install the dependencies:
 
@@ -17,7 +17,7 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## Tech Stack
 
 Start the development server on http://localhost:3000
 
@@ -25,7 +25,7 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
+## Architecture
 
 Build the application for production:
 
