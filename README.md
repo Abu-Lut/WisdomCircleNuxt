@@ -23,12 +23,12 @@ An elegant and modern UI presents a fully responsive sign-in flow  to clients. I
 
 ## Features
 
-* 💪 Rigorous validation - Custom JS validation uses RegEx to ensure only properly formatted input values are sent to the backend | Errors are shown whenever necessary to aid the user | Various edge cases considered and covered
-* 👁️ Visbility toggle - Allows for mistakes made in passwords to be conveniently corrected at the click of a button
-* 📱 Responsive UI - Allows for users to sign in at the comfort of their device choice
-* ⚡ SEO Optimised - Usage of Semantic HTML and SSR via Nuxt and deployment through Netlify ensures search visibility
-* 📧 Login through both Email and Mobile Number - User chooses preferred means at his own behest
-* 🌇 Modern UI - Easy on the eyes and minimalistic
+💪 **Rigorous validation** - Custom JS validation uses RegEx to ensure only properly formatted input values are sent to the backend | Errors are shown whenever necessary to aid the user | Various edge cases considered and covered
+👁️ **Visbility toggle** - Allows for mistakes made in passwords to be conveniently corrected at the click of a button
+📱 **Responsive UI** - Allows for users to sign in at the comfort of their device choice
+⚡ **SEO Optimised** - Usage of Semantic HTML and SSR via Nuxt and deployment through Netlify ensures search visibility
+📧 **Login through both Email and Mobile Number** - User chooses preferred means at his own behest
+🌇 **Modern UI** - Easy on the eyes and minimalistic
 
 ## Skills Learnt
 
