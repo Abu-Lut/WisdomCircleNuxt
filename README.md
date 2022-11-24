@@ -1,6 +1,8 @@
 # WisdomCircle Sign-in Flow
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<img src="{[BadgeURLHere](https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white)}" />
+
+An elegant and modern UI presents a fully responsive Sign-In flow  to clients. It is rich with features and easy on the eyes.
 
 ## About
 
@@ -25,7 +27,7 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Architecture
+### Architecture
 
 Build the application for production:
 
@@ -40,3 +42,5 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## 
