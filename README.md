@@ -25,17 +25,7 @@ pnpm install --shamefully-hoist
 
 ### Architecture
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
+![](https://github.com/Abu-Lut/WisdomCircleNuxt/blob/main/assets/images/WidomCircle%20Architecture.png)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
