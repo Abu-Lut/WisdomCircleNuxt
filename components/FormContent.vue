@@ -1,6 +1,6 @@
 <template>
     <section id="formContent">
-            <img src="../assets/images/resplogo.svg" id="respLogo" alt="logo">
+            <img src="../assets/images/respLogo.svg" id="respLogo" alt="logo">
             <div class="successful" ref="success">
                 <img src="../assets/images/greenCheck.svg" alt="">
                 You have signed in successfully
