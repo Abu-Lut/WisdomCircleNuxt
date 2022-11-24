@@ -1,7 +1,7 @@
 <template>
     <section id="formContent">
             <img src="../assets/images/respLogo.svg" id="respLogo" alt="logo">
-            <div class="successful" ref="success">
+            <div v-show="noError" class="successful" ref="success">
                 <img src="../assets/images/greenCheck.svg" alt="">
                 You have signed in successfully
             </div>
@@ -60,7 +60,8 @@ export default {
             passwordError: false,
             inputEmail: false,
             inputNumber: false,
-            eyeToggle: false
+            eyeToggle: false,
+            noError: false
         }
     },
 
@@ -134,6 +135,7 @@ export default {
                     if(data.usernameError){
                         this.firstInputError = true
                         this.usernameErrorDB = true
+                        this.noError = false
 
                         let textContent = ''
                         if(this.inputEmail){
@@ -149,6 +151,7 @@ export default {
                         this.firstInputError = false
                         this.usernameErrorDB = false
                         this.passwordError = true
+                        this.noError = false
 
                         this.styleNode(this.$refs.firstInput, "default")
                         this.styleNode(this.$refs.passwordField, "error")
@@ -157,11 +160,13 @@ export default {
                         this.firstInputError = false
                         this.usernameErrorDB = false
                         this.passwordError = false
+                        this.noError = true
                         
                         this.$refs.success.setAttribute('id', 'active')
 
                         setTimeout(()=> {
-                            this.$refs.success.removeAttribute('id')
+                            // this.$refs.success.removeAttribute('id')
+                            this.noError = false
                         }, 3000)
 
                         this.styleNode(this.$refs.firstInput, "default")

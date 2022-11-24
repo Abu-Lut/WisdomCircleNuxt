@@ -9,8 +9,7 @@
 html, body, #__nuxt{
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-    overflow-x: hidden;
+    overflow: hidden;   
     width: 100%;
 }
 
@@ -84,7 +83,7 @@ h2{
 
     position: absolute;
     top: 5%;
-    right: -104%;
+    right: 3%;
     height: 8%;
     width: fit-content;
     padding: 0 2%;
@@ -200,10 +199,6 @@ button:hover{
 
 @media (max-width: 1050px) {
     
-    #formContent{
-        position: fixed;
-    }
-
     div #imgDetails{
         display: none;
     }
