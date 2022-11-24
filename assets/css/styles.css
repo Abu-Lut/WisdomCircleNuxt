@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+html, body, #__nuxt{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    height: 100%;
+}
+
+#details, #formContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgDetails{
+    background-color: rgb(64,69,85);
+    display: flex;
+    color: white;
+    width: 35%;
+    padding: 15px 15px 15px 0;
+    height: 100%;
+}
+
+#imgDetails > img {
+    position: relative;
+    width: 30%;
+    align-self: flex-end;
+    bottom: -20px;
+}
+
+#details{
+    font: white;
+    text-align: start;
+    align-items: flex-start;
+}
+
+#contact span{
+    font-weight: 600;
+}
+
+h2{
+    margin: 3% 0;
+    font-weight: 700;
+}
+
+#logo{
+    margin: 33% 0;
+}
+
+#accent{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+#formContent{
+    width: 65%;
+    align-items: flex-start;
+    padding: 0 10% 0 20%;
+}
+
+#respLogo{
+    display: none;
+}
+
+.successful{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    position: absolute;
+    top: 5%;
+    right: -104%;
+    height: 8%;
+    width: fit-content;
+    padding: 0 2%;
+
+    border-left:2px solid #039855;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    white-space:nowrap;
+    font-size: 17px;
+    transition: right 0.3s ease-in-out;
+}
+
+#active{
+    right: 3%;
+}
+
+#successful > img{
+    height: 40%;
+}
+
+#formContent > *{
+    margin: 2px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #2558E5;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+#formContent > div{
+    display: flex;
+}
+
+form{
+    width: 83%;
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    height: 25%;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.152);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#usernameField{
+    margin: 10px 0;
+}
+
+input::-webkit-input-placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#passwordContainer{
+    position: relative;
+    height: 25%;
+    margin: 10px 0;
+}
+
+#passwordField{
+    height: 100%;
+}
+
+.errorMessage{
+    color: #D92D20;
+}
+
+.eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+}
+
+.eye:hover {
+    cursor: pointer;
+}
+
+#pwDetails{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+}
+
+#forgotPW{
+    text-align: end;
+    margin: 0;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    height: 20%;
+    background-color: #F1C12B;
+    border-width: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    
+    #imgDetails{
+        display: none !important;
+    }
+    
+    #respLogo{
+        display: block;
+        align-self: center;
+        margin-bottom: 12.5%;
+    }
+
+    #formContent{
+        height: 100%;
+        width: 100%;
+        padding: 10% 5%;
+        justify-content: flex-start;
+    }
+
+    #inputFields{
+        height: 100%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+
+    #usernameField,button{
+        height: 11%;
+        min-height: 38px;
+    }
+
+    #passwordContainer{
+        min-height: 38px;
+        height: 11%;
+    }
+
+    .successful{
+        top: 70%;
+        gap: 5%;
+        padding: 5%;
+        font-size: 15px;
+    }
+
+    .successful > img{
+        width: 30%;
+    }
+
+    #active{
+        right: 5%;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .eye{
+        top: 35%;
+    }
+}
+
