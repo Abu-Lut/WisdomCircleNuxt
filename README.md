@@ -23,12 +23,12 @@ An elegant and modern UI presents a fully responsive sign-in flow  to clients. I
 
 ## Features
 
-* Rigorous validation - Custom JS validation uses RegEx to ensure only properly formatted input values are sent to the backend | Errors are shown whenever necessary to aid the user
+* Rigorous validation - Custom JS validation uses RegEx to ensure only properly formatted input values are sent to the backend | Errors are shown whenever necessary to aid the user | Various edge cases considered and covered
 * Visbility toggle - Allows for mistakes made in passwords to be conveniently corrected at the click of a button
 * Responsive UI - Allows for users to sign in at the comfort of their device choice
 * SEO Optimised - Usage of Semantic HTML and SSR via Nuxt and deployment through Netlify ensures search visibility
 * Login through both Email and Mobile Number - User chooses preferred means at his own behest
-* Moden UI - Easy on the eyes and minimalistic
+* Modern UI - Easy on the eyes and minimalistic
 
 ## Skills Learnt
 
@@ -36,9 +36,8 @@ An elegant and modern UI presents a fully responsive sign-in flow  to clients. I
 2. NuxtJS
 3. Form Validation
 4. MySQL
-5. 
 
-## Development timeline
+## Development Timeline
 
 * Day 1  
   * Roadmap created 
@@ -52,6 +51,7 @@ An elegant and modern UI presents a fully responsive sign-in flow  to clients. I
 * Day 4 
   * Backend setup in NodeJS and SQL
   * Connected front-end and back-end
+  * Refactored validation logic for succintness & readability
 * Day 5 
   * Succesfully transferrred application from Vue to Nuxt
   * Deployed frontend to netlify
@@ -59,6 +59,5 @@ An elegant and modern UI presents a fully responsive sign-in flow  to clients. I
   * Sample video recorded 
 
 
-## Resources used
-
-
+## Potential Improvements
+* Minor bug fix
