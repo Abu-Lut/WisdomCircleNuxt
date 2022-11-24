@@ -200,8 +200,12 @@ button:hover{
 
 @media (max-width: 1050px) {
     
-    #imgDetails{
-        display: none !important;
+    #formContent{
+        position: fixed;
+    }
+
+    div #imgDetails{
+        display: none;
     }
     
     #respLogo{
