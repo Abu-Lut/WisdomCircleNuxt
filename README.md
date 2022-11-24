@@ -2,22 +2,9 @@
 
 
 
-An elegant and modern UI presents a fully responsive Sign-In flow  to clients. It is rich with features and easy on the eyes.
-
 ## About
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
+An elegant and modern UI presents a fully responsive sign-in flow  to clients. It is simple to navigate, responsive on multiple different devices and easy on the eyes.
 
 ## Tech Stack
 
@@ -29,4 +16,12 @@ pnpm install --shamefully-hoist
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## 
+## Features
+
+## Skills Learnt
+
+## Development roadmap
+
+## Resources used
+
+
